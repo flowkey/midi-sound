@@ -10,7 +10,7 @@ The package exports midiSound with the following functions
 
 ### load()
 
-Load needed soundfont for the piano
+Loads the needed soundfont for the piano, returns a promise
 
 ### noteOn(key, velocity, channel = 0);
 Call to start playing a note. Sets main volume with velocity.
